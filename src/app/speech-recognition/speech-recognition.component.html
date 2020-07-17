@@ -1,0 +1,42 @@
+<article>
+  <div class="card card-backgroud card-border">
+    <div class="card-block">
+      <section>
+        <h2>Talk to me!</h2>
+        <div>
+          <div>
+            <article>
+              <p>
+                Are you saying <strong>{{phrases[0]}}</strong>?
+              </p>
+              <ul>
+                <li *ngFor="let phrase of phrases">
+                  <p>{{phrase ? phrase : "..." }}</p>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Play with me!</h2>
+        <div>
+          <div>
+            <article>
+              <p>Try the voice commands: <strong>Hello</strong>, <strong>Github</strong>, <strong>Linkedin</strong>, <strong>Search API</strong> and <strong>Clear Result</strong></p>
+              <pre *ngIf="jokes">
+                <p>JSON Response</p>
+                {{jokes | async | json}}
+              </pre>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <lib-social-media [icons]="icons"></lib-social-media>
+      </section>
+    </div>
+  </div>
+</article>
