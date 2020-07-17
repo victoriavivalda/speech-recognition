@@ -2,12 +2,13 @@
 
 # speech-recognition
 
-Commands configured: 
+https://vickui.github.io/speech-recognition/
 
-- Hello
+Commands: 
+
+- hello
 - github
 - linkedin
 - search API
 - clear result
 
-https://vickui.github.io/speech-recognition/
