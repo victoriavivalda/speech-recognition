@@ -2,7 +2,7 @@
 
 # speech-recognition
 
-https://vickui.github.io/speech-recognition/
+https://victoriavivalda.github.io/speech-recognition/
 
 Commands: 
 
