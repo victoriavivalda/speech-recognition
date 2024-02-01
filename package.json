@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-social-media": "ng build social-media",
-    "build.prod": "ng build --aot --prod --progress false --base-href \"https://vickui.github.io/speech-recognition/\""
+    "build.prod": "ng build --aot --prod --progress false --base-href \"https://victoriavivalda.github.io/speech-recognition/\""
   },
   "private": true,
   "dependencies": {
